@@ -4,7 +4,7 @@ import classes from './Profile.module.css'
 
 const Profile = () => {
     return (
-        <div className={classes.content}>
+        <div>
             <div>
                 <img src='https://asianways.ru/wp-content/uploads/2016/01/luchshie-plyazhi-phuketa-opisanie-otzyvy-karta-660x330.jpg'></img>
             </div>
