@@ -1,15 +1,16 @@
 import MyPosts from './MyPosts/MyPosts';
 import './Profile.module.css';
-import classes from './Profile.module.css'
+import MyPhoto from '../../img/1.jpg'
+//import classes from './Profile.module.css'
 
 const Profile = () => {
     return (
         <div>
             <div>
-                <img src='https://asianways.ru/wp-content/uploads/2016/01/luchshie-plyazhi-phuketa-opisanie-otzyvy-karta-660x330.jpg'></img>
+                <img src={MyPhoto} class="img-thumbnail" alt='MyPhoto' width = "200 px"></img>
             </div>
             <div>
-                ava + description
+                Some information about myself
             </div>
             <MyPosts />
         </div>
